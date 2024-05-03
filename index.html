@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font ausome -->
+    <script src="https://kit.fontawesome.com/b8bd3244df.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background-color: black; color: white;">
+    <div class="main">
+        <div class="container">
+            <div class="search">
+                <input type="text" id="input">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass" id="search-btn"
+                        style="color: #bd16c0; cursor: pointer;"></i>
+                </button>
+            </div>
+            <div class="weather-data">
+                <img src="png.png" alt="no img found">
+                <p id="temp" style="text-align: center; font-size: 20px;">0°C</p>
+                <p id="city-name" style="text-align: center; font-size: 15px; line-height: 130%;">CITY NAME</p>
+            </div>
+            <div class="weather-extrnl">
+                <i class="fa-solid fa-wind" style="font-size: 24px; margin: 14px 0 0 25px;"></i>
+                <p id="wind">0KM/H</p>
+                <img src="humidity.png" alt="no images found">
+                <p id="humidity">0%</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
